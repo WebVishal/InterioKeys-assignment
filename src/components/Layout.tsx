@@ -8,7 +8,7 @@ const Layout = () => {
         <div className=" p-0  md:container mx-auto md:p-6">
             {/* Header Tabs */}
             <Tabs defaultValue="about" className="relative">
-                <TabsList className="border-b border-gray-300 mb-6 bg-transparent justify-start rounded-none text-gray-600 w-full sm:w-[65%]">
+                <TabsList className="border-b border-gray-300 mb-6 bg-transparent flex-wrap justify-start rounded-none text-gray-600 w-full sm:w-[65%]">
                     <TabsTrigger
                         value="about"
                         className="bg-transparent font-interiokeys data-[state=active]:border-red rounded-none data-[state=active]:border-b-2  data-[state=active]:text-xl data-[state=active]:shadow-none shadow-none text-gray-600 data-[state=active]:text-red"

@@ -112,3 +112,10 @@ export const reviews = [
     review: "I had the pleasure of working with Piyush Rai from ArchiLabs on a recent construction project and I must say, it was a truly professional experience."
   }
 ]
+export const SocialLinks =
+{
+  facebook: "#",
+  linkedin: "https://www.linkedin.com/company/interiokeys/?originalSubdomain=in",
+  google: "https://interiokeys.com/",
+  youtube: "https://www.youtube.com/@InterioKeys"
+}

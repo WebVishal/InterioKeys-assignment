@@ -1,8 +1,7 @@
-import { YoutubeIcon, LinkdienIcon, GoogleIcon, FacebookIcon, InteriokeysLogo } from '../lib/utils'
+import { YoutubeIcon, LinkdienIcon, GoogleIcon, FacebookIcon, InteriokeysLogo, SocialLinks } from '../lib/utils'
 const Footer = () => {
-
     return (
-        <footer className="bg-gray-100 text-gray-800 py-8">
+        <footer className="bg-gray-100 text-gray-800 py-8 mt-20">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-3 md:grid-cols-7 gap-8">
                     {/* Logo and Newsletter Section */}
@@ -27,14 +26,14 @@ const Footer = () => {
                                 <a href="#" className="hover:text-red-700">
                                     <img src={FacebookIcon} alt="facebook" width={28} />
                                 </a>
-                                <a href="#" className="hover:text-red-700">
-                                    <img src={LinkdienIcon} alt="linkdien" width={28} />
+                                <a href={SocialLinks.linkedin} className="hover:text-red-700">
+                                    <img src={LinkdienIcon} alt="linkedin" width={28} />
                                 </a>
-                                <a href="#" className="hover:text-red-700">
+                                <a href={SocialLinks.google} className="hover:text-red-700">
                                     <img src={GoogleIcon} alt="google" width={28} />
                                 </a>
 
-                                <a href="#" className="hover:text-red-700">
+                                <a href={SocialLinks.youtube} className="hover:text-red-700">
                                     <img src={YoutubeIcon} alt="youtube" width={28} />
                                 </a>
                             </div>
