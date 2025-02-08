@@ -15,7 +15,7 @@ const Footer = () => {
                                 <input
                                     type="email"
                                     placeholder="yourname@email.com"
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-white"
                                 />
                                 <button
                                     className="px-2    md:px-4 py-2 absolute top-1 right-2  text-white bg-red rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400"
@@ -25,17 +25,17 @@ const Footer = () => {
                             </div>
                             <div className="flex mt-4 space-x-5 text-red-500 pb-5">
                                 <a href="#" className="hover:text-red-700">
-                                    <img src={FacebookIcon} alt="facebook" width={30} />
+                                    <img src={FacebookIcon} alt="facebook" width={28} />
                                 </a>
                                 <a href="#" className="hover:text-red-700">
-                                    <img src={LinkdienIcon} alt="linkdien" width={30} />
+                                    <img src={LinkdienIcon} alt="linkdien" width={28} />
                                 </a>
                                 <a href="#" className="hover:text-red-700">
-                                    <img src={GoogleIcon} alt="google" width={30} />
+                                    <img src={GoogleIcon} alt="google" width={28} />
                                 </a>
 
                                 <a href="#" className="hover:text-red-700">
-                                    <img src={YoutubeIcon} alt="youtube" width={30} />
+                                    <img src={YoutubeIcon} alt="youtube" width={28} />
                                 </a>
                             </div>
                         </div>
